@@ -1,0 +1,362 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+017.261  017.251: locale set
+028.817  011.556: inits 1
+030.509  001.692: window checked
+030.514  000.005: parsing arguments
+030.613  000.099: expanding arguments
+032.371  001.758: inits 2
+032.813  000.442: init highlight
+032.815  000.002: waiting for UI
+035.400  002.585: done waiting for UI
+035.412  000.012: initialized screen early for UI
+038.430  001.579  001.579: sourcing /home/prhyme/.local/share/nvim/site/autoload/plug.vim
+050.249  000.014  000.014: sourcing /home/prhyme/.config/nvim/vim-fugitive/ftdetect/fugitive.vim
+051.666  008.128  008.114: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/filetype.vim
+052.997  000.640  000.640: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/ftplugin.vim
+054.846  000.604  000.604: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/indent.vim
+057.161  000.379  000.379: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syncolor.vim
+057.661  001.329  000.950: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/synload.vim
+057.744  002.081  000.752: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syntax.vim
+058.537  000.168  000.168: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syncolor.vim
+059.717  000.143  000.143: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syncolor.vim
+067.297  009.412  009.101: sourcing /home/prhyme/.config/nvim/gruvbox/colors/gruvbox.vim
+068.491  000.310  000.310: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syncolor.vim
+070.629  000.301  000.301: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syncolor.vim
+077.552  010.097  009.487: sourcing /home/prhyme/.config/nvim/gruvbox/colors/gruvbox.vim
+078.886  001.028  001.028: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/nosyntax.vim
+080.300  000.310  000.310: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syncolor.vim
+082.783  000.277  000.277: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syncolor.vim
+089.651  010.384  009.797: sourcing /home/prhyme/.config/nvim/gruvbox/colors/gruvbox.vim
+089.736  010.615  000.231: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/synload.vim
+089.812  012.173  000.530: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/syntax/syntax.vim
+090.214  053.415  008.703: sourcing /home/prhyme/.config/nvim/init.vim
+090.220  001.393: sourcing vimrc file(s)
+091.134  000.086  000.086: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/rpc.vim
+091.754  000.575  000.575: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/util.vim
+092.077  000.179  000.179: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/client.vim
+096.738  005.804  004.964: sourcing /home/prhyme/.config/nvim/coc.nvim/plugin/coc.vim
+097.205  000.362  000.362: sourcing /home/prhyme/.config/nvim/jupyter-vim/plugin/jupyter.vim
+097.755  000.483  000.483: sourcing /home/prhyme/.config/nvim/vim-eunuch/plugin/eunuch.vim
+126.502  028.680  028.680: sourcing /home/prhyme/.config/nvim/nvim-lspconfig/plugin/lspconfig.vim
+126.949  000.168  000.168: sourcing /home/prhyme/.config/nvim/nerdtree/autoload/nerdtree.vim
+127.609  000.410  000.410: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/path.vim
+127.775  000.117  000.117: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/menu_controller.vim
+127.889  000.069  000.069: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/menu_item.vim
+128.022  000.088  000.088: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/key_map.vim
+128.253  000.187  000.187: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/bookmark.vim
+128.476  000.177  000.177: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/tree_file_node.vim
+128.888  000.366  000.366: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/tree_dir_node.vim
+129.095  000.161  000.161: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/opener.vim
+129.342  000.203  000.203: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/creator.vim
+129.451  000.041  000.041: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/flag_set.vim
+129.613  000.117  000.117: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/nerdtree.vim
+129.920  000.265  000.265: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/ui.vim
+129.998  000.034  000.034: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/event.vim
+130.084  000.040  000.040: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/notifier.vim
+130.542  000.406  000.406: sourcing /home/prhyme/.config/nvim/nerdtree/autoload/nerdtree/ui_glue.vim
+133.318  000.092  000.092: sourcing /home/prhyme/.config/nvim/nerdtree/nerdtree_plugin/exec_menuitem.vim
+134.791  000.706  000.706: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/autoload/provider/clipboard.vim
+135.163  001.822  001.116: sourcing /home/prhyme/.config/nvim/nerdtree/nerdtree_plugin/fs_menu.vim
+135.241  000.049  000.049: sourcing /home/prhyme/.config/nvim/nerdtree/nerdtree_plugin/vcs.vim
+135.520  000.072  000.072: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/autoload/gitstatus.vim
+136.057  000.138  000.138: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/autoload/gitstatus/log.vim
+137.115  000.178  000.178: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/autoload/gitstatus/listener.vim
+137.238  001.877  001.490: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/nerdtree_plugin/git_status.vim
+137.944  000.540  000.540: sourcing /home/prhyme/.config/nvim/vim-devicons/nerdtree_plugin/webdevicons.vim
+139.399  012.787  005.560: sourcing /home/prhyme/.config/nvim/nerdtree/plugin/NERD_tree.vim
+139.518  000.044  000.044: sourcing /home/prhyme/.config/nvim/nvim-web-devicons/plugin/nvim-web-devicons.vim
+139.922  000.344  000.344: sourcing /home/prhyme/.config/nvim/tagalong.vim/plugin/tagalong.vim
+140.505  000.023  000.023: sourcing /home/prhyme/.config/nvim/barbar.nvim/autoload/bufferline.vim
+140.856  000.114  000.114: sourcing /home/prhyme/.config/nvim/barbar.nvim/autoload/bufferline/highlight.vim
+146.207  006.219  006.082: sourcing /home/prhyme/.config/nvim/barbar.nvim/plugin/bufferline.vim
+146.672  000.358  000.358: sourcing /home/prhyme/.config/nvim/vim-autoformat/plugin/autoformat.vim
+147.537  000.843  000.843: sourcing /home/prhyme/.config/nvim/vim-autoformat/plugin/defaults.vim
+147.588  000.032  000.032: sourcing /home/prhyme/.config/nvim/vim-autoformat/plugin/utils.vim
+147.671  000.012  000.012: sourcing /home/prhyme/.config/nvim/nvim-lsp/plugin/lspconfig.vim
+148.332  000.593  000.593: sourcing /home/prhyme/.config/nvim/vim-surround/plugin/surround.vim
+148.952  000.339  000.339: sourcing /home/prhyme/.config/nvim/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+149.176  000.781  000.441: sourcing /home/prhyme/.config/nvim/ctrlp.vim/plugin/ctrlp.vim
+150.159  000.150  000.150: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/autoload/provider/pythonx.vim
+181.237  000.360  000.360: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/autoload/remote/host.vim
+181.353  031.678  031.168: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/autoload/provider/python.vim
+215.382  033.654  033.654: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/autoload/provider/python3.vim
+217.374  000.102  000.102: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/autoload/provider.vim
+306.174  156.880  091.446: sourcing /home/prhyme/.config/nvim/vim-rtags/plugin/rtags.vim
+307.042  000.553  000.553: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/utils.vim
+308.160  001.885  001.332: sourcing /home/prhyme/.config/nvim/vim-lsp/plugin/lsp.vim
+308.260  000.026  000.026: sourcing /home/prhyme/.config/nvim/deoplete.nvim/plugin/deoplete.vim
+308.348  000.024  000.024: sourcing /home/prhyme/.config/nvim/deoplete-vim-lsp/plugin/deoplete_vim_lsp.vim
+308.694  000.274  000.274: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/plugin/vim-lsp-cxx-highlight.vim
+308.807  000.047  000.047: sourcing /home/prhyme/.config/nvim/chromatica.nvim/plugin/chromatica.vim
+310.054  001.167  001.167: sourcing /home/prhyme/.config/nvim/semshi/plugin/semshi.vim
+312.322  000.030  000.030: sourcing /home/prhyme/.config/nvim/vim-devicons/autoload/devicons/plugins/ctrlp.vim
+312.389  002.262  002.232: sourcing /home/prhyme/.config/nvim/vim-devicons/plugin/webdevicons.vim
+313.992  001.531  001.531: sourcing /home/prhyme/.config/nvim/vim-clang-format/plugin/clang_format.vim
+314.450  000.163  000.163: sourcing /home/prhyme/.config/nvim/vim-gitgutter/autoload/gitgutter/utility.vim
+314.916  000.150  000.150: sourcing /home/prhyme/.config/nvim/vim-gitgutter/autoload/gitgutter/highlight.vim
+316.221  002.160  001.847: sourcing /home/prhyme/.config/nvim/vim-gitgutter/plugin/gitgutter.vim
+321.559  005.263  005.263: sourcing /home/prhyme/.config/nvim/nerdcommenter/plugin/NERD_commenter.vim
+321.787  000.143  000.143: sourcing /home/prhyme/.config/nvim/vim-tmux-navigator/plugin/tmux_navigator.vim
+322.672  000.821  000.821: sourcing /home/prhyme/.fzf/plugin/fzf.vim
+323.739  000.997  000.997: sourcing /home/prhyme/.config/nvim/fzf.vim/plugin/fzf.vim
+323.885  000.077  000.077: sourcing /home/prhyme/.config/nvim/coc-fzf/plugin/coc_fzf.vim
+325.758  001.811  001.811: sourcing /home/prhyme/.config/nvim/vim-fugitive/plugin/fugitive.vim
+327.372  000.700  000.700: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/gzip.vim
+327.455  000.037  000.037: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/health.vim
+327.612  000.123  000.123: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/man.vim
+329.270  000.877  000.877: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+329.373  001.724  000.847: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/matchit.vim
+329.621  000.211  000.211: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/matchparen.vim
+330.324  000.665  000.665: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/netrwPlugin.vim
+331.522  000.292  000.292: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/autoload/remote/define.vim
+332.281  001.569  001.276: sourcing /home/prhyme/.local/share/nvim/rplugin.vim
+332.288  001.868  000.299: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/rplugin.vim
+332.609  000.211  000.211: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/shada.vim
+332.798  000.116  000.116: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/spellfile.vim
+333.064  000.198  000.198: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/tarPlugin.vim
+333.315  000.181  000.181: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/tohtml.vim
+333.431  000.049  000.049: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/tutor.vim
+333.737  000.225  000.225: sourcing /tmp/.mount_nvim1IVsE2/usr/share/nvim/runtime/plugin/zipPlugin.vim
+333.843  004.602: loading plugins
+333.999  000.027  000.027: sourcing /home/prhyme/.local/share/nvim/site/pack/git-plugins/start/jupyter-vim/plugin/jupyter.vim
+334.295  000.425: loading packages
+335.618  001.033  001.033: sourcing /home/prhyme/.config/nvim/fzf.vim/autoload/fzf/vim.vim
+335.866  001.428  000.396: sourcing /home/prhyme/.config/nvim/coc-fzf/after/plugin/coc_fzf.vim
+335.960  000.237: loading after plugins
+335.978  000.018: inits 3
+338.041  002.064: reading ShaDa
+338.616  000.575: opening buffers
+339.044  000.079  000.079: sourcing /home/prhyme/.config/nvim/deoplete.nvim/autoload/deoplete.vim
+339.287  000.134  000.134: sourcing /home/prhyme/.config/nvim/deoplete.nvim/autoload/deoplete/util.vim
+339.541  000.142  000.142: sourcing /home/prhyme/.config/nvim/deoplete.nvim/autoload/deoplete/init.vim
+339.730  000.065  000.065: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/hl.vim
+339.999  000.118  000.118: sourcing /home/prhyme/.config/nvim/vim-gitgutter/autoload/gitgutter.vim
+340.421  001.266: BufEnter autocommands
+340.424  000.004: editing files in windows
+342.886  001.007  001.007: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/callbag.vim
+343.712  001.933  000.927: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp.vim
+343.962  000.096  000.096: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/ui/vim/signature_help.vim
+344.283  000.147  000.147: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/ui/vim/completion.vim
+344.576  000.130  000.130: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/document_highlight.vim
+345.760  000.027  000.027: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics.vim
+345.995  000.125  000.125: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/state.vim
+347.492  000.079  000.079: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/echo.vim
+348.118  000.416  000.416: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/highlights.vim
+349.459  000.046  000.046: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/float.vim
+349.820  000.258  000.258: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/ui/vim/output.vim
+350.158  000.224  000.224: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/signs.vim
+351.656  000.176  000.176: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/virtual_text.vim
+352.888  000.114  000.114: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/document_code_action/signs.vim
+354.016  000.063  000.063: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/show_message_request.vim
+354.637  000.058  000.058: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/show_message.vim
+355.110  000.052  000.052: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/work_done_progress.vim
+355.594  000.264  000.264: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/lsp.vim
+355.896  000.111  000.111: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Syntax/Markdown.vim
+356.021  000.025  000.025: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp.vim
+356.328  000.076  000.076: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/LSP/MarkupContent.vim
+356.603  000.051  000.051: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/LSP/Text.vim
+357.138  000.271  000.271: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Window/FloatingWindow.vim
+357.500  000.121  000.121: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Window.vim
+357.955  000.114  000.114: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Buffer.vim
+358.167  002.929  001.898: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/completion/documentation.vim
+359.827  000.203  000.203: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/client.vim
+361.089  000.121  000.121: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl.vim
+361.328  000.108  000.108: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/vim_lsp.vim
+361.524  000.044  000.044: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/LanguageClient.vim
+362.477  000.043  000.043: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/coc.vim
+362.681  000.146  000.146: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc.vim
+363.213  000.049  000.049: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/nvim_lsp.vim
+363.930  000.442  000.442: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/syntax/lsp_cxx_highlight.vim
+364.028  015.573: VimEnter autocommands
+364.031  000.003: UIEnter autocommands
+364.033  000.002: before starting main loop
+364.904  000.825  000.825: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/float.vim
+366.048  001.190: first screen update
+366.051  000.003: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.012  000.012: --- NVIM STARTING ---
+017.419  017.407: locale set
+028.907  011.488: inits 1
+030.537  001.630: window checked
+030.542  000.004: parsing arguments
+030.641  000.099: expanding arguments
+032.380  001.739: inits 2
+032.859  000.478: init highlight
+032.861  000.002: waiting for UI
+035.422  002.562: done waiting for UI
+035.438  000.016: initialized screen early for UI
+038.460  001.549  001.549: sourcing /home/prhyme/.local/share/nvim/site/autoload/plug.vim
+050.473  000.014  000.014: sourcing /home/prhyme/.config/nvim/vim-fugitive/ftdetect/fugitive.vim
+051.626  008.181  008.167: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/filetype.vim
+053.214  000.583  000.583: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/ftplugin.vim
+054.643  000.658  000.658: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/indent.vim
+056.341  000.302  000.302: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syncolor.vim
+056.754  000.925  000.623: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/synload.vim
+056.834  001.623  000.698: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syntax.vim
+057.594  000.168  000.168: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syncolor.vim
+058.548  000.142  000.142: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syncolor.vim
+066.278  009.303  008.993: sourcing /home/prhyme/.config/nvim/gruvbox/colors/gruvbox.vim
+067.510  000.300  000.300: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syncolor.vim
+069.479  000.275  000.275: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syncolor.vim
+076.598  010.161  009.585: sourcing /home/prhyme/.config/nvim/gruvbox/colors/gruvbox.vim
+078.098  001.051  001.051: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/nosyntax.vim
+079.476  000.304  000.304: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syncolor.vim
+081.820  000.266  000.266: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syncolor.vim
+088.539  010.066  009.496: sourcing /home/prhyme/.config/nvim/gruvbox/colors/gruvbox.vim
+088.622  010.292  000.226: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/synload.vim
+088.694  011.972  000.629: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/syntax/syntax.vim
+089.062  052.204  008.174: sourcing /home/prhyme/.config/nvim/init.vim
+089.066  001.425: sourcing vimrc file(s)
+089.956  000.082  000.082: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/rpc.vim
+090.537  000.538  000.538: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/util.vim
+090.870  000.183  000.183: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/client.vim
+095.005  005.240  004.436: sourcing /home/prhyme/.config/nvim/coc.nvim/plugin/coc.vim
+095.434  000.328  000.328: sourcing /home/prhyme/.config/nvim/jupyter-vim/plugin/jupyter.vim
+095.964  000.464  000.464: sourcing /home/prhyme/.config/nvim/vim-eunuch/plugin/eunuch.vim
+121.023  024.980  024.980: sourcing /home/prhyme/.config/nvim/nvim-lspconfig/plugin/lspconfig.vim
+121.503  000.177  000.177: sourcing /home/prhyme/.config/nvim/nerdtree/autoload/nerdtree.vim
+122.281  000.418  000.418: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/path.vim
+122.457  000.119  000.119: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/menu_controller.vim
+122.586  000.083  000.083: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/menu_item.vim
+122.749  000.120  000.120: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/key_map.vim
+122.972  000.181  000.181: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/bookmark.vim
+123.187  000.170  000.170: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/tree_file_node.vim
+123.581  000.351  000.351: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/tree_dir_node.vim
+123.802  000.176  000.176: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/opener.vim
+124.042  000.193  000.193: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/creator.vim
+124.152  000.039  000.039: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/flag_set.vim
+124.303  000.108  000.108: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/nerdtree.vim
+124.600  000.255  000.255: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/ui.vim
+124.659  000.017  000.017: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/event.vim
+124.736  000.036  000.036: sourcing /home/prhyme/.config/nvim/nerdtree/lib/nerdtree/notifier.vim
+125.175  000.389  000.389: sourcing /home/prhyme/.config/nvim/nerdtree/autoload/nerdtree/ui_glue.vim
+127.957  000.096  000.096: sourcing /home/prhyme/.config/nvim/nerdtree/nerdtree_plugin/exec_menuitem.vim
+129.393  000.714  000.714: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/autoload/provider/clipboard.vim
+129.763  001.783  001.069: sourcing /home/prhyme/.config/nvim/nerdtree/nerdtree_plugin/fs_menu.vim
+129.841  000.050  000.050: sourcing /home/prhyme/.config/nvim/nerdtree/nerdtree_plugin/vcs.vim
+130.121  000.072  000.072: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/autoload/gitstatus.vim
+130.623  000.139  000.139: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/autoload/gitstatus/log.vim
+131.647  000.176  000.176: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/autoload/gitstatus/listener.vim
+131.791  001.827  001.440: sourcing /home/prhyme/.config/nvim/nerdtree-git-plugin/nerdtree_plugin/git_status.vim
+132.471  000.512  000.512: sourcing /home/prhyme/.config/nvim/vim-devicons/nerdtree_plugin/webdevicons.vim
+133.476  012.335  005.237: sourcing /home/prhyme/.config/nvim/nerdtree/plugin/NERD_tree.vim
+133.597  000.044  000.044: sourcing /home/prhyme/.config/nvim/nvim-web-devicons/plugin/nvim-web-devicons.vim
+133.973  000.317  000.317: sourcing /home/prhyme/.config/nvim/tagalong.vim/plugin/tagalong.vim
+134.525  000.021  000.021: sourcing /home/prhyme/.config/nvim/barbar.nvim/autoload/bufferline.vim
+134.856  000.108  000.108: sourcing /home/prhyme/.config/nvim/barbar.nvim/autoload/bufferline/highlight.vim
+140.114  006.080  005.951: sourcing /home/prhyme/.config/nvim/barbar.nvim/plugin/bufferline.vim
+140.572  000.352  000.352: sourcing /home/prhyme/.config/nvim/vim-autoformat/plugin/autoformat.vim
+141.435  000.842  000.842: sourcing /home/prhyme/.config/nvim/vim-autoformat/plugin/defaults.vim
+141.486  000.032  000.032: sourcing /home/prhyme/.config/nvim/vim-autoformat/plugin/utils.vim
+141.567  000.011  000.011: sourcing /home/prhyme/.config/nvim/nvim-lsp/plugin/lspconfig.vim
+142.233  000.613  000.613: sourcing /home/prhyme/.config/nvim/vim-surround/plugin/surround.vim
+142.832  000.341  000.341: sourcing /home/prhyme/.config/nvim/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+143.053  000.757  000.416: sourcing /home/prhyme/.config/nvim/ctrlp.vim/plugin/ctrlp.vim
+144.113  000.150  000.150: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/autoload/provider/pythonx.vim
+175.461  000.348  000.348: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/autoload/remote/host.vim
+175.575  032.014  031.517: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/autoload/provider/python.vim
+210.115  034.196  034.196: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/autoload/provider/python3.vim
+212.000  000.096  000.096: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/autoload/provider.vim
+302.606  159.434  093.128: sourcing /home/prhyme/.config/nvim/vim-rtags/plugin/rtags.vim
+303.465  000.554  000.554: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/utils.vim
+304.592  001.887  001.332: sourcing /home/prhyme/.config/nvim/vim-lsp/plugin/lsp.vim
+304.693  000.026  000.026: sourcing /home/prhyme/.config/nvim/deoplete.nvim/plugin/deoplete.vim
+304.779  000.024  000.024: sourcing /home/prhyme/.config/nvim/deoplete-vim-lsp/plugin/deoplete_vim_lsp.vim
+305.119  000.269  000.269: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/plugin/vim-lsp-cxx-highlight.vim
+305.230  000.047  000.047: sourcing /home/prhyme/.config/nvim/chromatica.nvim/plugin/chromatica.vim
+306.920  001.611  001.611: sourcing /home/prhyme/.config/nvim/semshi/plugin/semshi.vim
+309.299  000.031  000.031: sourcing /home/prhyme/.config/nvim/vim-devicons/autoload/devicons/plugins/ctrlp.vim
+309.368  002.372  002.341: sourcing /home/prhyme/.config/nvim/vim-devicons/plugin/webdevicons.vim
+311.021  001.580  001.580: sourcing /home/prhyme/.config/nvim/vim-clang-format/plugin/clang_format.vim
+312.162  000.173  000.173: sourcing /home/prhyme/.config/nvim/vim-gitgutter/autoload/gitgutter/utility.vim
+312.596  000.148  000.148: sourcing /home/prhyme/.config/nvim/vim-gitgutter/autoload/gitgutter/highlight.vim
+313.952  002.200  001.879: sourcing /home/prhyme/.config/nvim/vim-gitgutter/plugin/gitgutter.vim
+318.528  004.491  004.491: sourcing /home/prhyme/.config/nvim/nerdcommenter/plugin/NERD_commenter.vim
+318.740  000.134  000.134: sourcing /home/prhyme/.config/nvim/vim-tmux-navigator/plugin/tmux_navigator.vim
+319.594  000.791  000.791: sourcing /home/prhyme/.fzf/plugin/fzf.vim
+320.681  001.003  001.003: sourcing /home/prhyme/.config/nvim/fzf.vim/plugin/fzf.vim
+320.838  000.080  000.080: sourcing /home/prhyme/.config/nvim/coc-fzf/plugin/coc_fzf.vim
+322.749  001.845  001.845: sourcing /home/prhyme/.config/nvim/vim-fugitive/plugin/fugitive.vim
+324.444  000.697  000.697: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/gzip.vim
+324.685  000.129  000.129: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/health.vim
+324.969  000.211  000.211: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/man.vim
+326.897  000.888  000.888: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+326.999  001.944  001.057: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/matchit.vim
+327.249  000.213  000.213: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/matchparen.vim
+327.979  000.692  000.692: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/netrwPlugin.vim
+329.181  000.299  000.299: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/autoload/remote/define.vim
+329.937  001.573  001.274: sourcing /home/prhyme/.local/share/nvim/rplugin.vim
+329.944  001.864  000.291: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/rplugin.vim
+330.265  000.210  000.210: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/shada.vim
+330.442  000.106  000.106: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/spellfile.vim
+330.718  000.206  000.206: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/tarPlugin.vim
+330.960  000.172  000.172: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/tohtml.vim
+331.136  000.109  000.109: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/tutor.vim
+331.403  000.226  000.226: sourcing /tmp/.mount_nvimoQzOgw/usr/share/nvim/runtime/plugin/zipPlugin.vim
+331.506  005.472: loading plugins
+331.654  000.020  000.020: sourcing /home/prhyme/.local/share/nvim/site/pack/git-plugins/start/jupyter-vim/plugin/jupyter.vim
+331.904  000.378: loading packages
+333.224  001.030  001.030: sourcing /home/prhyme/.config/nvim/fzf.vim/autoload/fzf/vim.vim
+333.466  001.418  000.388: sourcing /home/prhyme/.config/nvim/coc-fzf/after/plugin/coc_fzf.vim
+333.563  000.241: loading after plugins
+333.581  000.018: inits 3
+335.650  002.070: reading ShaDa
+336.230  000.579: opening buffers
+336.659  000.080  000.080: sourcing /home/prhyme/.config/nvim/deoplete.nvim/autoload/deoplete.vim
+336.934  000.164  000.164: sourcing /home/prhyme/.config/nvim/deoplete.nvim/autoload/deoplete/util.vim
+337.220  000.145  000.145: sourcing /home/prhyme/.config/nvim/deoplete.nvim/autoload/deoplete/init.vim
+337.411  000.065  000.065: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/hl.vim
+337.681  000.117  000.117: sourcing /home/prhyme/.config/nvim/vim-gitgutter/autoload/gitgutter.vim
+338.116  001.314: BufEnter autocommands
+338.119  000.004: editing files in windows
+340.628  001.024  001.024: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/callbag.vim
+341.505  001.998  000.973: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp.vim
+341.919  000.160  000.160: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/ui/vim/signature_help.vim
+342.454  000.251  000.251: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/ui/vim/completion.vim
+343.122  000.236  000.236: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/document_highlight.vim
+344.762  000.034  000.034: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics.vim
+344.996  000.119  000.119: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/state.vim
+346.260  000.046  000.046: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/echo.vim
+346.612  000.237  000.237: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/highlights.vim
+347.871  000.045  000.045: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/float.vim
+348.240  000.263  000.263: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/ui/vim/output.vim
+348.569  000.213  000.213: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/signs.vim
+350.012  000.173  000.173: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/diagnostics/virtual_text.vim
+351.176  000.114  000.114: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/document_code_action/signs.vim
+352.344  000.051  000.051: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/show_message_request.vim
+352.974  000.058  000.058: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/show_message.vim
+353.443  000.054  000.054: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/work_done_progress.vim
+353.927  000.270  000.270: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/lsp.vim
+354.249  000.125  000.125: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Syntax/Markdown.vim
+354.382  000.027  000.027: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp.vim
+354.697  000.078  000.078: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/LSP/MarkupContent.vim
+354.980  000.055  000.055: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/LSP/Text.vim
+355.544  000.283  000.283: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Window/FloatingWindow.vim
+355.950  000.129  000.129: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Window.vim
+356.431  000.113  000.113: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/vital/_lsp/VS/Vim/Buffer.vim
+356.630  003.067  001.988: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/internal/completion/documentation.vim
+358.530  000.211  000.211: sourcing /home/prhyme/.config/nvim/vim-lsp/autoload/lsp/client.vim
+359.859  000.144  000.144: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl.vim
+360.196  000.196  000.196: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/vim_lsp.vim
+360.407  000.046  000.046: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/LanguageClient.vim
+361.522  000.053  000.053: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/coc.vim
+361.763  000.174  000.174: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc.vim
+362.492  000.054  000.054: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/autoload/lsp_cxx_hl/client/nvim_lsp.vim
+363.293  000.455  000.455: sourcing /home/prhyme/.config/nvim/vim-lsp-cxx-highlight/syntax/lsp_cxx_highlight.vim
+363.409  016.836: VimEnter autocommands
+363.412  000.003: UIEnter autocommands
+363.413  000.002: before starting main loop
+364.336  000.877  000.877: sourcing /home/prhyme/.config/nvim/coc.nvim/autoload/coc/float.vim
+365.432  001.142: first screen update
+365.435  000.004: --- NVIM STARTED ---
