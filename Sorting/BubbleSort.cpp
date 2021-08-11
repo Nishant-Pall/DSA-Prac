@@ -70,7 +70,7 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    vi array = {3, 7, 8, 4, 1, 2, 9, 0, 5, 6};
+    vi array = {9, 8, 7, 6, 5, 4, 3, 2, 1};
     solve(array);
     return 0;
 }
