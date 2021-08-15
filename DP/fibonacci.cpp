@@ -55,23 +55,35 @@ double eps = 1e-12;
 //     return solve(n - 1) + solve(n - 2);
 // }
 
-vi F(100, -1);
+// MEMOIZATION
+// TIME: O(n)
+// SPACE: O(n)
+// vi F(100, -1);
+// int solve(int n) {
+//     if (n <= 1) {
+//         F[n] = n;
+//         return n;
+//     } else {
+//         if (F[n - 2] == -1) F[n - 2] = solve(n - 2);
+//         if (F[n - 1] == -1) F[n - 1] = solve(n - 1);
+//         return F[n - 2] + F[n - 1];
+//     }
+// }
 
+// TABULATION
 int solve(int n) {
-    if (n <= 1) {
-        F[n] = n;
-        return n;
-    } else {
-        if (F[n - 2] == -1) F[n - 2] = solve(n - 2);
-        if (F[n - 1] == -1) F[n - 1] = solve(n - 1);
-        return F[n - 2] + F[n - 1];
+    vi dp(n + 1, 0);
+    dp[0] = 0;
+    dp[1] = 1;
+    for (int i = 2; i <= n; i++) {
+        dp[i] = dp[i - 1] + dp[i - 2];
     }
+    return dp[n];
 }
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    cout << solve(3);
+    cout << solve(10);
     return 0;
 }
