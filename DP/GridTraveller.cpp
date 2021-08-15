@@ -49,20 +49,51 @@ double eps = 1e-12;
 #define rall(x) (x).rbegin(), (x).rend()
 #define sz(x) ((ll)(x).size())
 
-// RECURSIVE SOLUTION
-// TIME : O(2^(n+m))
-// SPACE : O(n+m)
+vvi F(100, vi(100, -1));
+
 int solve(int m, int n) {
-    if (n == 1 && m == 1) return 1;
-    if (!n || !m) return 0;
-    return solve(m - 1, n) + solve(m, n - 1);
+    // RECURSIVE SOLUTION
+    // TIME : O(2^(n+m))
+    // SPACE : O(n+m)
+    // if (n == 1 && m == 1) return 1;
+    // if (!n || !m) return 0;
+    // return solve(m - 1, n) + solve(m, n - 1);
+
+    // MEMOIZATION SOLUTION
+    // TIME : O(m*n)
+    // SPACE : O(m+n)
+    // if (!n || !m) return 0;
+
+    // if (m == 1 && n == 1) {
+    //     F[m][n] = 1;
+    //     return 1;
+    // } else {
+    //     if (F[m - 1][n] == -1) F[m - 1][n] = solve(m - 1, n);
+    //     if (F[m][n - 1] == -1) F[m][n - 1] = solve(m, n - 1);
+    //     return F[m - 1][n] + F[m][n - 1];
+    // }
+
+    // TABULATION
+    // vvi dp(m, vi(n, 0));
+    // for (int i = 0; i < m; i++) {
+    //     dp[i][0] = i + 1;
+    // }
+    // for (int i = 0; i < n; i++) {
+    //     dp[0][i] = i + 1;
+    // }
+    // for (int i = 0; i < m; i++) {
+    //     for (int j = 0; j < n; j++) {
+    //         dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+    //     }
+    // }
+    // return dp[m][n];
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    int m = 10, n = 8;
+    int m = 3, n = 3;
     cout << solve(m, n);
     return 0;
 }
