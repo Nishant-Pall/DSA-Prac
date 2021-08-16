@@ -49,26 +49,42 @@ double eps = 1e-12;
 #define rall(x) (x).rbegin(), (x).rend()
 #define sz(x) ((ll)(x).size())
 
-string solve(int target_sum, vi& array) {
-    if (!target_sum) return "";
-    if (target_sum < 0) return "-1";
+// MEMOIZATION
+// string solve(int target_sum, vi& array) {
+//     if (!target_sum) return "";
+//     if (target_sum < 0) return "-1";
 
-    for (auto num : array) {
-        int remainder = target_sum - num;
-        string remainder_result = solve(remainder, array);
-        if (remainder_result != "-1") {
-            return remainder_result + "," + to_string(num);
+//     for (auto num : array) {
+//         int remainder = target_sum - num;
+//         string remainder_result = solve(remainder, array);
+//         if (remainder_result != "-1") {
+//             return remainder_result + "," + to_string(num);
+//         }
+//     }
+//     return "";
+// }
+
+// TABULATION
+string solve(int target_sum, vi& array) {
+    vector<string> dp(target_sum + 1, "-1");
+    dp[0] = "";
+
+    for (int i = 0; i <= target_sum; i++) {
+        if (dp[i] != "-1") {
+            for (auto num : array) {
+                if (i + num <= target_sum) dp[i + num] = dp[i] + "," + to_string(num);
+            }
         }
     }
-    return "";
+    return dp[target_sum];
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    vi array = {4, 3};
+    vi array = {3, 4, 5};
     string ans = solve(7, array);
-    cout << ans;
+    cout << ans.substr(1);
     return 0;
 }
